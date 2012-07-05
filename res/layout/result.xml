@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ImageView android:id="@+id/image" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:padding="1sp" android:background="#fff"
+		android:layout_margin="10sp"/>
+		
+	<ImageView android:id="@+id/face" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:padding="1sp" android:background="#fff"
+		android:layout_margin="10sp"/>	
+</LinearLayout>

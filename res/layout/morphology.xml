@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+<LinearLayout
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+
+	<ImageView android:id="@+id/orig" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+
+	<ImageView android:id="@+id/after" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+
+	<HorizontalScrollView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:scrollbars="none">
+
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="horizontal">
+
+			<Button android:id="@+id/openButton" android:layout_width="wrap_content"
+				android:layout_height="fill_parent" android:text="Open"
+				android:layout_weight="1.0" />
+
+			<Button android:id="@+id/closeButton" android:layout_width="wrap_content"
+				android:layout_height="fill_parent" android:text="Close"
+				android:layout_weight="1.0" />
+
+			<Button android:id="@+id/gradientButton" android:layout_width="wrap_content"
+				android:layout_height="fill_parent" android:text="Gradient"
+				android:layout_weight="1.0" />
+
+			<Button android:id="@+id/topHatButton" android:layout_width="wrap_content"
+				android:layout_height="fill_parent" android:text="Top Hat"
+				android:layout_weight="1.0" />
+
+			<Button android:id="@+id/blackHatButton" android:layout_width="wrap_content"
+				android:layout_height="fill_parent" android:text="Black Hat"
+				android:layout_weight="1.0" />
+
+			<Button android:id="@+id/resetButton" android:layout_width="wrap_content"
+				android:layout_height="fill_parent" android:text="Reset"
+				android:layout_weight="1.0" />
+
+		</LinearLayout>
+
+
+	</HorizontalScrollView>
+
+</LinearLayout>
+</ScrollView>
